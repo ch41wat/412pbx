@@ -22,6 +22,9 @@ return [
         'extension' => [
             'class' => 'backend\modules\extension\Module',
         ],
+        'user' => [
+            'class' => 'backend\modules\user\Module',
+        ],
     ],
     'components' => [
         'request' => [

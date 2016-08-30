@@ -32,6 +32,14 @@
                             ['label' => 'CDRs', 'icon' => 'fa fa-file-text-o', 'url' => ['/cdr/cdr/'],],
                             ],
                     ],
+                    [
+                        'label' => 'User Management',
+                        'icon' => 'fa fa-group',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Users', 'icon' => 'fa fa-file-text-o', 'url' => ['/user/user/'],],
+                            ],
+                    ],
                     ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
                     ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],

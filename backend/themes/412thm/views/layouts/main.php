@@ -36,7 +36,7 @@ if (Yii::$app->controller->action->id === 'login') {
         <title><?= Yii::$app->name ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="hold-transition skin-blue-light sidebar-mini">
+    <body class="hold-transition skin-red sidebar-mini">
     <?php $this->beginBody() ?>
     <div class="wrapper">
 

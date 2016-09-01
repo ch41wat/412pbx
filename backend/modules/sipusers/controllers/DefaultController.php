@@ -1,11 +1,11 @@
 <?php
 
-namespace backend\modules\user\controllers;
+namespace backend\modules\sipusers\controllers;
 
 use yii\web\Controller;
 
 /**
- * Default controller for the `user` module
+ * Default controller for the `sipusers` module
  */
 class DefaultController extends Controller
 {

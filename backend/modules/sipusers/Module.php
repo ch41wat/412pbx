@@ -1,16 +1,16 @@
 <?php
 
-namespace backend\modules\user;
+namespace backend\modules\sipusers;
 
 /**
- * user module definition class
+ * sipusers module definition class
  */
 class Module extends \yii\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'backend\modules\user\controllers';
+    public $controllerNamespace = 'backend\modules\sipusers\controllers';
 
     /**
      * @inheritdoc

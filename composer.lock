@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "09a43a54d04c9acdaff6fcd4262d6766",
-    "content-hash": "c7dff59f672d0349bbec30a196c0572a",
+    "hash": "6b28e4f72b505d0ab8e522c0f4a74916",
+    "content-hash": "a7cba38d01595e509042047fa7bb15ee",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -46,6 +46,83 @@
                 "web"
             ],
             "time": "2016-08-04 23:22:06"
+        },
+        {
+            "name": "bower-asset/admin-lte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "index2.html",
+                    "dist/css/AdminLTE.css",
+                    "dist/js/app.js",
+                    "build/less/AdminLTE.less"
+                ],
+                "bower-asset-ignore": [
+                    "/.*",
+                    "node_modules",
+                    "bower_components",
+                    "composer.json",
+                    "documentation"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Admin dashboard and control panel template",
+            "keywords": [
+                "admin",
+                "backend",
+                "bootstrap",
+                "css",
+                "html",
+                "js",
+                "responsive",
+                "template",
+                "theme"
+            ]
+        },
+        {
+            "name": "bower-asset/bootbox",
+            "version": "v4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/makeusabrew/bootbox.git",
+                "reference": "cb756203e250ed0ff2539359ff0ad1c3ffb8e8d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/cb756203e250ed0ff2539359ff0ad1c3ffb8e8d3",
+                "reference": "cb756203e250ed0ff2539359ff0ad1c3ffb8e8d3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=3.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./bootbox.js",
+                "bower-asset-ignore": [
+                    "CHANGELOG.md",
+                    "CONTRIBUTING",
+                    "Gruntfile.js",
+                    "header.txt",
+                    "karma*.js",
+                    "build",
+                    "tests"
+                ]
+            }
         },
         {
             "name": "bower-asset/bootstrap",
@@ -94,6 +171,84 @@
                 "mobile-first",
                 "responsive",
                 "web"
+            ]
+        },
+        {
+            "name": "bower-asset/font-awesome",
+            "version": "v4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/font-awesome.less",
+                    "scss/font-awesome.scss"
+                ],
+                "bower-asset-ignore": [
+                    "*/.*",
+                    "*.json",
+                    "src",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
+            ],
+            "description": "Font Awesome"
+        },
+        {
+            "name": "bower-asset/ionicons",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/driftyco/ionicons.git",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/driftyco/ionicons/zipball/ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "css/ionicons.css",
+                    "fonts/*"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "builder",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Ionicons - free and beautiful icons from the creators of Ionic Framework",
+            "keywords": [
+                "fonts",
+                "icon font",
+                "icons",
+                "ionic",
+                "web font"
             ]
         },
         {
@@ -172,6 +327,36 @@
                 "mask",
                 "plugins"
             ]
+        },
+        {
+            "name": "bower-asset/multiselect",
+            "version": "0.9.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lou/multi-select.git",
+                "reference": "344dc6cfe0f9c3b3ee66e88bed7bfc7cc1adbb3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lou/multi-select/zipball/344dc6cfe0f9c3b3ee66e88bed7bfc7cc1adbb3a",
+                "reference": "344dc6cfe0f9c3b3ee66e88bed7bfc7cc1adbb3a",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.1"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./css/multi-select.css",
+                    "./img/switch.png",
+                    "./js/jquery.multi-select.js"
+                ]
+            },
+            "license": [
+                "WTFPL"
+            ],
+            "description": "A user-friendlier drop-in replacement for the standard select with multiple attribute activated."
         },
         {
             "name": "bower-asset/punycode",
@@ -339,6 +524,131 @@
             "time": "2013-12-10 17:49:58"
         },
         {
+            "name": "cjtterabytesoft/yii2-adminlte-advanced",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cjtterabytesoft/yii2-adminlte-advanced.git",
+                "reference": "8c2e39e971f3b13a27317e89d691aa2fe66fe605"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cjtterabytesoft/yii2-adminlte-advanced/zipball/8c2e39e971f3b13a27317e89d691aa2fe66fe605",
+                "reference": "8c2e39e971f3b13a27317e89d691aa2fe66fe605",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/admin-lte": "*",
+                "bower-asset/bootbox": "*",
+                "bower-asset/font-awesome": "*",
+                "bower-asset/ionicons": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": ">=2.0.6",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-codeception": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "cjtterabytesoft\\adminlte\\advanced\\Bootstrap",
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                },
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cjtterabytesoft\\adminlte\\advanced\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License v. 2.0."
+            ],
+            "authors": [
+                {
+                    "name": "Wilmer Arambula",
+                    "email": "cjtterabytellc@gmail.com"
+                }
+            ],
+            "description": "Theme: Almsaeedstudio / AdminLTE - Yii2 Advanced Application Template..",
+            "keywords": [
+                "AdminLTE",
+                "extension",
+                "yii2",
+                "yii2-app-advanced",
+                "yii2-themes"
+            ],
+            "time": "2016-06-04 19:11:04"
+        },
+        {
+            "name": "cjtterabytesoft/yii2-adminlte-basic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cjtterabytesoft/yii2-adminlte-basic.git",
+                "reference": "99b5bbe9a0d8ae6d49524731fd95bc30d5bb76d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cjtterabytesoft/yii2-adminlte-basic/zipball/99b5bbe9a0d8ae6d49524731fd95bc30d5bb76d6",
+                "reference": "99b5bbe9a0d8ae6d49524731fd95bc30d5bb76d6",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/admin-lte": "*",
+                "bower-asset/bootbox": "*",
+                "bower-asset/font-awesome": "*",
+                "bower-asset/ionicons": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": ">=2.0.5",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-codeception": "*",
+                "yiisoft/yii2-swiftmailer": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "cjtterabytesoft\\adminlte\\basic\\Bootstrap",
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                },
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cjtterabytesoft\\adminlte\\basic\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License v. 2.0."
+            ],
+            "authors": [
+                {
+                    "name": "Wilmer Arambula",
+                    "email": "cjtterabytellc@gmail.com"
+                }
+            ],
+            "description": "Theme: Almsaeedstudio / AdminLTE - Yii2 Basic Application Template..",
+            "keywords": [
+                "AdminLTE",
+                "extension",
+                "yii2",
+                "yii2-app-basic",
+                "yii2-themes"
+            ],
+            "time": "2016-05-23 13:44:24"
+        },
+        {
             "name": "dmstr/yii2-adminlte-asset",
             "version": "2.3.3",
             "source": {
@@ -443,6 +753,43 @@
             "time": "2016-07-16 12:58:58"
         },
         {
+            "name": "liuxy/yii2-themes",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liupdhc/yii2-liuxy-themes.git",
+                "reference": "7849c971e10c2f1d3238e25e4a912c7eba3cfb3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liupdhc/yii2-liuxy-themes/zipball/7849c971e10c2f1d3238e25e4a912c7eba3cfb3b",
+                "reference": "7849c971e10c2f1d3238e25e4a912c7eba3cfb3b",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "liuxy\\themes\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "liupeng",
+                    "email": "liupdhc@126.com"
+                }
+            ],
+            "description": "Yii2 backend themes  https://github.com/liupdhc/yii2-liuxy-themes",
+            "keywords": [
+                "themes",
+                "yii"
+            ],
+            "time": "2015-12-06 18:26:03"
+        },
+        {
             "name": "rmrevin/yii2-fontawesome",
             "version": "2.15.2",
             "source": {
@@ -492,6 +839,55 @@
                 "yii"
             ],
             "time": "2016-08-19 14:09:51"
+        },
+        {
+            "name": "swapwink/themes",
+            "version": "0.1.55",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/swapwink/themes.git",
+                "reference": "b4c0a04d7cea572ec33e98b9b5a8edccb64a539c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/swapwink/themes/get/b4c0a04d7cea572ec33e98b9b5a8edccb64a539c.zip",
+                "reference": "b4c0a04d7cea572ec33e98b9b5a8edccb64a539c",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/multiselect": "0.9.12",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "2.0.*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "swapwink\\themes\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Wilberto Dzul",
+                    "email": "wilberto.dzul@swapwink.com",
+                    "role": "Project Manager"
+                },
+                {
+                    "name": "Roger Acosta",
+                    "email": "roger.acosta@swapwink.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tema para proyectos SwapWink en Yii2",
+            "homepage": "https://bitbucket.org/swapwink/themes",
+            "keywords": [
+                "swapwink",
+                "theme"
+            ],
+            "time": "2016-09-02 00:15:19"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -545,6 +941,50 @@
                 "mailer"
             ],
             "time": "2016-07-08 11:51:25"
+        },
+        {
+            "name": "vova07/yii2-start-themes",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vova07/yii2-start-themes.git",
+                "reference": "75ee2f29eea27828fd5c04740b036a620d78a006"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vova07/yii2-start-themes/zipball/75ee2f29eea27828fd5c04740b036a620d78a006",
+                "reference": "75ee2f29eea27828fd5c04740b036a620d78a006",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "vova07\\themes\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vova07\\themes\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Crudu Vasile",
+                    "email": "bazillio07@yandex.ru"
+                }
+            ],
+            "description": "The themes extension for Yii2-Start application.",
+            "keywords": [
+                "start",
+                "template",
+                "themes",
+                "yii 2",
+                "yii2",
+                "yii2-start"
+            ],
+            "time": "2015-06-05 09:53:11"
         },
         {
             "name": "yiisoft/yii2",
@@ -1097,7 +1537,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cjtterabytesoft/yii2-adminlte-basic": 20,
+        "cjtterabytesoft/yii2-adminlte-advanced": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

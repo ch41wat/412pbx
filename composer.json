@@ -18,7 +18,12 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "dmstr/yii2-adminlte-asset": "2.*"
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "liuxy/yii2-themes": "*",
+        "cjtterabytesoft/yii2-adminlte-basic": "dev-master",
+        "vova07/yii2-start-themes": "*",
+        "swapwink/themes": "^0.1.55",
+        "cjtterabytesoft/yii2-adminlte-advanced": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

@@ -1,7 +1,7 @@
 <?php
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-    'name' => '412PBX',
+    'name' => 'iConnect',
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',

@@ -13,6 +13,12 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
         'method' => 'get',
+<<<<<<< HEAD
+=======
+        'options' => [
+            'data-pjax' => 1
+        ],
+>>>>>>> 344a7e0b7fb7ec7cabc4bc7056e919d05f549642
     ]); ?>
 
     <?= $form->field($model, 'id') ?>

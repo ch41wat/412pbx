@@ -8,8 +8,13 @@ use app\models\PsauthsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+<<<<<<< HEAD
 use app\models\Psendpoints;
 use app\models\Psaors;
+=======
+use app\models\Psaors;
+use app\models\Psendpoints;
+>>>>>>> 344a7e0b7fb7ec7cabc4bc7056e919d05f549642
 
 /**
  * PsauthsController implements the CRUD actions for Psauths model.
@@ -67,6 +72,7 @@ class PsauthsController extends Controller
     public function actionCreate()
     {
         $model = new Psauths();
+<<<<<<< HEAD
         $endpoint = new Psendpoints();
         $aors = new Psaors();
 
@@ -84,6 +90,10 @@ class PsauthsController extends Controller
             $endpoint->save();
             $aors->save();
             $model->save();
+=======
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+>>>>>>> 344a7e0b7fb7ec7cabc4bc7056e919d05f549642
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
